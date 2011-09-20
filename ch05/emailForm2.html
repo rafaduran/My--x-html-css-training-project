@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transactional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transactional.dtd">
+<html xmlns="htpp://http://www.w3.org/1999/xhtml1" lang="en" xml:lang="en">
+    <head>
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <h1>Contact Us</h1>
+        <p>Use the following form to send a message to Example Cafe</p>
+        <form action="contact.aspx" method="post" name="frmRespondToAd">
+            <fieldset>
+                <legend>Your message</legend>
+                <table>
+                    <tr>
+                        <td><label for="emailTo">To</label></td>
+                        <td>
+                            <input type="text" name="txtTo" readonly="readonly" id="emailTo"
+                                size="20" value="Example Cafe" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="emailFrom">Your email</label></td>
+                        <td><input type="text" name="txtFrom" id="emailFrom" size="20" 
+                            tabindex="1" maxlength="250" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="emailBody">Message</label></td>
+                        <td><textarea name="txtBody" id="emailBody" tabindex="2" cols="50" 
+                            rows="10"></textarea></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>How you found us:</legend>
+                <table>
+                    <tr>
+                        <td><label for="selReferrer">How did you ear of us?</label></td>
+                        <td>
+                            <select name="selReferrer" tabindex="3">
+                                <option value="google">Google</option>
+                                <option value="ad">Local newspaper ad</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="chkBody">Newsletter</label></td>
+                        <td><input type="checkbox" name="chkBody" id="newsletterSignup" 
+                            checked="checked" tabindex="4" />
+                            Ensure this box is checked if you would like to receive email updates
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <input type="submit" value="Send message" />
+        </form>
+    </body>
+</html>

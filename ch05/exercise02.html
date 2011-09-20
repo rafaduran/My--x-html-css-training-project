@@ -1,0 +1,36 @@
+<?xml version="1.0" enconding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3c.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="html://w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title>Voting</title>
+        <style type="text/css">td {width:100;text-align:center;}</style>
+        <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+    </head>
+    <body id="top">
+        <h1>Register your opinion</h1>
+        <p>
+            How well you rate the information on this site (where 1 is very poor,
+            and 5 is very good)?
+        </p>
+        <form action="action" method="post" id="frmVote">
+            <table>
+                <tr>
+                    <td><input type="radio" name="radVote" id="vpoor"   value="1" /></td>
+                    <td><input type="radio" name="radVote" id="poor"    value="2" /></td>
+                    <td><input type="radio" name="radVote" id="average" value="3" /></td>
+                    <td><input type="radio" name="radVote" id="good"    value="4" /></td>
+                    <td><input type="radio" name="radVote" id="vgood"   value="5" /></td>
+                </tr>
+                <tr>
+                    <td><label for="vpoor">  1</label></td>
+                    <td><label for="poor">   2</label></td>
+                    <td><label for="average">3</label></td>
+                    <td><label for="good">   4</label></td>
+                    <td><label for="vgood">  5</label></td>
+                </tr>
+            </table>
+            <input type="submit" value="Vote now" id="subVote" />
+        </form>
+    </body>
+</html>
