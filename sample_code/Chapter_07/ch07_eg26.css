@@ -1,0 +1,18 @@
+/* Style sheet for line-height example */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+p {
+  width:200px; 
+  padding:5px; margin:10px;
+  border-style:solid; border-color:#000000; border-width:2px;}
+
+p.two {
+  line-height:16px;}
+
+p.three {
+  line-height:28px;}

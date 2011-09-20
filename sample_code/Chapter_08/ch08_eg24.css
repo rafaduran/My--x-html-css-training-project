@@ -1,0 +1,14 @@
+/* Style sheet for cursors  */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+.pointer {cursor: pointer;} 
+.crosshair {cursor: crosshair;}
+.move {cursor: move;} 
+.text {cursor: text;} 
+.wait {cursor: wait;} 
+.help {cursor: help} 

@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+  <title>Registration</title>
+</head>
+
+<body>
+<h2>User Registration</h2>
+<p>Please complete the following form to register with our site:</p>
+
+<form action="http://www.example.org/register.asp" method="post"
+      name="frmRegister">
+
+<fieldset>
+    <legend accesskey="y">About <u>Y</u>ou (ALT + Y)</legend>
+
+<table>
+  <tr>
+    <td><label for="userName">User name:</label></td>
+    <td><input type="text" name="txtUserName" size="20" id="userName" /></td>
+  </tr>
+  <tr>
+    <td><label for="password">Password:</label></td>
+    <td><input type="password" name="pwdPassword" size="20" id="password" /></td>
+  </tr>
+  <tr>
+    <td><label for="confPassword">Confirm Password:</label></td>
+    <td><input type="password" name="pwdPasswordConf" size="20" id="confPassword" /></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><label for="firstName">First name:</label></td>
+    <td><input type="text" name="txtFirstName" size="20" id="firstName" /></td>
+  </tr>
+  <tr>
+    <td><label for="lastName">Last name:</label></td>
+    <td><input type="text" name="txtLastName" size="20" id="lastName" /></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><label for="email">Email address:</label></td>
+    <td><input type="text" name="txtEmail" size="20" id="email" /></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Gender:</td>
+    <td><input type="radio" name="radSex" value="male" />Male</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><input type="radio" name="radSex" value="female" />Female</td>
+  </tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+</fieldset>
+
+<fieldset>
+    <legend accesskey="u">About <u>U</u>s (ALT + U)</legend>
+<table>
+  <tr>
+    <td><label for="referrer">How did you hear about us?</label>:</td>
+    <td>
+      <select name="selReferrer" id="referrer">
+        <option selected="selected" value="">Select answer</option>
+        <option value="website">Another website</option>
+        <option value="printAd">Magazine ad</option>
+        <option value="friend">From a friend</option>
+        <option value="other">Other</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td><label for="mailList">Please select this box if you wish<br /> to be added to our mailing list
+        <br /><small>We will not pass on your details to any third 
+        party.</small></label></td>
+    <td><input type="checkbox" name="chkMailingList" id="mailList" /></td>
+  </tr>
+
+</table>
+
+</fieldset>
+
+<input type="submit" value="Register now" />
+
+</form>
+</body>
+</html>

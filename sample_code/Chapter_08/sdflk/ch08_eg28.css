@@ -1,0 +1,10 @@
+/* Style sheet for relative positioning  */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+p {border-style:solid; border-color:#000000; border-width:2px; padding:5px; width:200px; background-color:#FFFFFF;}
+p.two {position:relative; left:40px; top: -40px;}

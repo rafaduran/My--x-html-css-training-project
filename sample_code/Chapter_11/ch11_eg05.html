@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<script type="text/JavaScript">
+  function calculateArea(width, height) {
+    area =  width * height 
+    return area 
+  }
+</script>
+<title>Area calculator</title>
+</head>
+
+<body>
+<form name="frmArea">
+
+Enter the width and height of your rectangle to calculate the size:<br />
+Width: <input type="text" name="txtWidth" size="5" /><br />
+Height: <input type="text" name="txtHeight" size="5" /><br />
+<input type="button" value="Calculate area" onclick="alert(calculateArea(document.frmArea.txtWidth.value, document.frmArea.txtHeight.value))" />
+
+</form>
+</body>
+
+</html>

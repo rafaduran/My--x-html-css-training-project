@@ -1,0 +1,6 @@
+/* style sheet demonstrating the list-style-position property */
+
+body {background-color: #ffffff; }
+
+ul {list-style-position:outside; }
+ol {list-style-position:inside; }

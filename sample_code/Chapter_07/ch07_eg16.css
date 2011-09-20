@@ -1,0 +1,10 @@
+/* Style sheet for ch07_eg16.html */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+.pre {white-space:pre;}
+.nowrap {white-space:nowrap;}

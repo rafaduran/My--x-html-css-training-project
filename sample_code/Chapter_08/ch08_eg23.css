@@ -1,0 +1,11 @@
+/* Style sheet for quotes  */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+blockquote:before {content: open-quote;}
+
+blockquote:after {content: close-quote;}

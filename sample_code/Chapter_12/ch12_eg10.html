@@ -1,0 +1,20 @@
+<html>
+<head>
+  <title>Form validation</title>
+</head>
+
+<body onload="document.frmAgree.btnSubmit.disabled=true">
+
+<form name="frmAgree" action="test.aspx" method="post">
+
+  I understand that this software has no liability: 
+  <input type="checkbox" value="0" name="chkAgree" id="chkAgree"
+         onclick="document.frmAgree.btnSubmit.disabled=false" />
+  <input type="submit" name="btnSubmit" value="Go to download" /><br />
+  <p>You will not be able to submit this form unless you agree to the 
+     <a href="terms.html">terms and conditions</a> and check the terms and 
+     conditions box.</p>
+</form>
+</body>
+
+</html>

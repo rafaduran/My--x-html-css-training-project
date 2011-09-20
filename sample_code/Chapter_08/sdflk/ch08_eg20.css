@@ -1,0 +1,13 @@
+/* Style sheet for ch08_eg19.html */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif;}
+
+input {
+	border:none;
+	background-color:#dddddd;}
+
+input:focus {
+	background-color:#c4c4c4;}

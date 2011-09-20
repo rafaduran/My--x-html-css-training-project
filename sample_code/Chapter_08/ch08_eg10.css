@@ -1,0 +1,13 @@
+/* style sheet demonstrating the list-style property */
+
+body {background-color: #ffffff; }
+
+li.a {list-style:none;}
+li.b {list-style:disc;}
+li.c {list-style:circle;}
+li.d {list-style:square;}
+li.e {list-style:decimal;}
+li.f {list-style:lower-alpha;}
+li.g {list-style:upper-alpha;}
+li.h {list-style:lower-roman;}
+li.i {list-style:upper-roman;}

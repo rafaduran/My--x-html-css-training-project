@@ -1,0 +1,12 @@
+/* Style sheet for ch07_eg13.html */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+p.none {text-transform:none;}
+p.capitalize {text-transform:capitalize;}
+p.uppercase {text-transform:uppercase;}
+p.lowercase {text-transform:lowercase;}

@@ -1,0 +1,14 @@
+/* Style sheet for ch09_eg07.html */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+div {width:500px;margin:10px;}
+
+.leftAlign {text-align:left;}
+.rightAlign {text-align:right;}
+.center {text-align:center;}
+.justify {text-align:justify;}

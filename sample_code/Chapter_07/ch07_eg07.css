@@ -1,0 +1,9 @@
+/* Style sheet for ch09_eg07.html */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+span.color {color:#FF0000;}

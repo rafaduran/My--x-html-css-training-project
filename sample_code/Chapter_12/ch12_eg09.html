@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>Form validation</title>
+  <script type="text/JavaScript" language="JavaScript">
+
+function countCheckboxes(field) {
+  var intCount = 0
+  for (var i = 0; i < field.length; i++) {
+	     if (field[i].checked)
+         intCount++; }
+  alert("You selected " + intCount + " checkbox(es)");
+}
+
+</script>
+</head>
+<body>
+
+<form name="frmCards" action="cards.aspx" method="post">
+  <p>Please select a suit of cards.</p>
+  <p><input type="checkbox" name="chkSuit" value="hearts" /> Hearts </p>
+  <p><input type="checkbox" name="chkSuit" value="diamonds" /> Diamonds </p>
+  <p><input type="checkbox" name="chkSuit" value="spades" /> Spades </p>
+  <p><input type="checkbox" name="chkSuit" value="clubs" /> Clubs </p>
+  <p><input type="button" value="Count checkboxes" onclick="countCheckboxes(frmCards.chkSuit)" /></p>
+</form> 
+
+</body>
+</html>

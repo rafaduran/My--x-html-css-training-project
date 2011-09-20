@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>Scriptaculous animation effects</title>
+  <script src="scripts/scriptaculous/prototype.js" type="text/javascript"></script>
+  <script src="scripts/scriptaculous/scriptaculous.js" type="text/javascript"></script></head>
+  <style type="text/css">
+    div {border:1px solid #333333; background-color:#d6d6d6; clear:both; width:150px; height:100px; padding:10px; margin:20px; font-family:arial, verdana, sans-serif;}
+
+  </style>
+<body>
+
+  <div id="effect-shake" onclick="Effect.Shake(this)">
+    Effect.Shake()
+  </div>
+  <a onclick="Effect.Shake('effect-shake')">shake the above box</a>
+
+  <div id="effect-shrink" onclick="Effect.Shrink(this); window.setTimeout('Effect.Appear(\'effect-shrink\')',2500);">
+    Effect.Shrink()
+  </div>
+
+  <div id="effect-fade" onclick="Effect.Fade(this); window.setTimeout('Effect.Appear(\'effect-fade\')',2500);">
+    Effect.Fade()
+  </div>
+
+  <div id="effect-puff" onclick="Effect.Puff(this); window.setTimeout('Effect.Appear(\'effect-puff\')',2500);">
+    Effect.Puff()
+  </div>
+
+</body>
+</html>

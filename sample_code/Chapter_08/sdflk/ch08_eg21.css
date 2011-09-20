@@ -1,0 +1,12 @@
+/* Style sheet for ch08_eg21.html */
+
+body {
+   color:#000000;
+   background-color:#ffffff;}
+
+h1 {font-size:18pt;}
+
+p {font-size:12pt;}
+
+p.abstract:after {content: "You need to register to read the full article.";
+  color:#ff0000;}

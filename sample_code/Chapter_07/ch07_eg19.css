@@ -1,0 +1,10 @@
+/* Style sheet for example demonstrating adjacent sibling and child selectors */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-size:12px;}
+
+   p {font-family:arial, verdana, sans-serif;}
+   div>p {border:1px solid #000000;}
+   p+p+p {background-color:#d6d6d6;} 

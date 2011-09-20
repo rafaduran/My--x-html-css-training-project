@@ -1,0 +1,30 @@
+body {
+  background-color:#ffffff;
+  font-family:arial, verdana, sans-serif;
+  font-size:12px;}
+
+ul#contents {background-color:#d6d6d6;}
+
+ul {
+  list-style:circle;
+  font-weight:bold;
+  padding-left:30px;
+  width:250px;}
+
+ul ul {list-style:square;}
+
+a:link {
+  color:#0033ff;;
+  text-decoration:none;}
+
+a:visited {
+  color:#0066ff;
+  text-decoration:none;}
+
+a:active {
+  text-decoration:underline;}
+
+a:link:hover {
+  color:#003399;
+  background-color:#e9e9e9;
+  text-decoration:underline;}

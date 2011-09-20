@@ -1,0 +1,27 @@
+/* CSS Style sheet for tableStyles.html */
+
+body {
+  background-color:#ffffff;
+  font-family:arial, verdana, sans-serif;
+  font-size:14px;}
+
+table {
+  border-style:solid;
+  border-width:1px;
+  border-color:#666666;}
+
+th {
+  color:#ffffff;
+  background-color:#999999;
+  font-weight:bold;
+  border:none;
+  padding:4px;}
+
+tr {background-color:#cccccc;}
+
+tr.odd {background-color:#efefef;}
+
+td {
+  color:#000000;
+  padding:2px;}
+

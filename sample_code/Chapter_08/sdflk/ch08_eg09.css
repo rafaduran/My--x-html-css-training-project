@@ -1,0 +1,13 @@
+/* style sheet demonstrating the background-attachment property */
+
+body {
+  background-image: url("images/background_small.gif");
+  
+	background-attachment: fixed; 
+  
+	background-position: center;
+  
+	background-repeat: no-repeat;
+  
+	background-color: #eaeaea; }
+

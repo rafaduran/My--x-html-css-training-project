@@ -1,0 +1,24 @@
+/* style sheet demonstrating styles of links */
+
+body {background-color:#ffffff;}
+
+a {
+  font-family: arial, verdana, sans-serif; 
+  font-size:12px;
+  font-weight:bold;}
+
+a:link {
+  color:#0000ff;
+  text-decoration:none;}
+
+a:visited {
+  color:#333399;
+  text-decoration:none;}
+
+a:active {
+  color:#0033ff;
+  text-decoration:underline;}
+
+a:link:hover {
+  background-color:#e9e9e9;
+  text-decoration:underline;}

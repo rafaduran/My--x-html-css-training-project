@@ -1,0 +1,31 @@
+body {
+	margin:0px;
+	background-color:#ffffff;
+	font-family:arial, verdana, sans-serif;}
+
+#header {
+	background-color:#cccccc;
+	padding:10px;
+	height:120px;}
+
+#navigation {
+	background-color:#efefef;
+	padding:10px;
+	height:40px;}
+
+#footer {
+	background-color:#cccccc;
+	padding:10px;
+	height:40px;
+	clear:both;
+	border-top:20px solid #ffffff;}
+
+/* 3 columns */
+.column1of3, .column2of3, .column3of3 {
+	float:left;
+	width:28%;
+    margin-left:2%;
+	background-color:#cccccc;
+	padding:1%;
+	margin-top:20px;
+	height:175px;}

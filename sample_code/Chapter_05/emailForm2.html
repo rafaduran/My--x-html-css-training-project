@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+
+  <title>Contact Us</title>
+
+</head>
+
+
+<body>
+
+<h1>Contact Us</h1>
+
+
+<form action="contact.aspx" method="post" name="frmRespondToAd">
+
+
+  <fieldset>
+    <legend>Your message:</legend>
+    <table>
+      <tr>
+        <td><label for="emailTo">To</label></td>
+        <td><input type="text" name="txtTo" readonly="readonly" id="emailTo" size="20" value="Example Cafe" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="emailFrom">Your email</label></td>
+        <td><input type="text" name="txtFrom" id="emailFrom" size="20" tabindex="1" maxlength="250" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="emailBody">Message</label></td>
+        <td><textarea name="txtBody" id="emailBody"  cols="50" rows="10" tabindex="2"></textarea></td>
+      </tr>
+
+    </table>
+  </fieldset>
+
+  <fieldset>
+    <legend>How you found us:</legend>
+    <table>
+      <tr>
+        <td><label for="emailBody">How did you hear of us</label></td>
+        <td>
+	      <select name="selReferrer">
+    	    <option value="google">Google</option>
+	        <option value="ad">Local newspaper ad</option>
+	        <option value="friend">Friend</option>
+	        <option value="other">Other</option>
+	      </select>
+    	</td>
+      </tr>
+
+      <tr>
+        <td><label for="newsletterSignup">Newsletter</label></td>
+        <td><input type="checkbox" name="chkBody" id="newsletterSignup" checked="checked"  /> Ensure this box is checked if you would like to receive email updates</td>
+      </tr>
+    </table>
+  </fieldset>
+
+  <input type="submit" value="Send message" />
+
+</form>
+
+</body>
+
+</html>

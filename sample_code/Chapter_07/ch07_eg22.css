@@ -1,0 +1,17 @@
+/* Style sheet for border properties */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+.solid {border-style:solid; border-color:#000000; border-width:1px;}
+.dotted {border-style:dotted; border-color:#999999; border-width:2px;}
+.dashed {border-style:dashed; border-color:#666666; border-width:3px;}
+.double {border-style:double;}
+.groove {border-style:groove;}
+.ridge {border-style:ridge;}
+.inset {border-style:inset;}
+.outset {border-style:outset;}
+

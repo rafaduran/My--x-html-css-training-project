@@ -1,0 +1,19 @@
+/* Style sheet for example demonstrating attribute selectors */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-size:12px;
+   font-family:arial, verdana, sans-serif;}
+
+p[id] {border:1px solid #000000;}
+p[id="summary"] {background-color:#999999;}
+p[class~="XHTML"] {border:3px solid #000000;}
+p[language|="en"] {color:#ffffff; background-color:#000000;}
+p[class^="b"]{border:3px solid #333333;}
+p[class*="on"] {color:#ffffff; background-color:#333333;}
+p[class$="x"] {border:1px solid #333333;}
+
+
+
+ 

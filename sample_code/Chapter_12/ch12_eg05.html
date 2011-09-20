@@ -1,0 +1,19 @@
+<html>
+<head><title>The replace() method</title></head>
+<body>
+<p>Replacing carriage returns and line feeds with a &lt;br /&gt; tag:</p>
+
+<form name="myForm">
+
+  <textarea name="myTextArea" id="myTextArea" cols="40" rows="10">
+Here is some text
+the carriage returns and
+line breaks should be replaced
+with tags.</textarea><br /><br />
+
+  <input type="button" value="Replace breaks" onclick="document.myForm.myTextArea.value =document.myForm.myTextArea.value.replace(/\r\n|\r|\n/g, '<br />');">
+
+</form>
+
+</body>
+</html>

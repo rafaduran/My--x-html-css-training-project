@@ -1,0 +1,17 @@
+/* Style sheet for overflow property example */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+div {max-height:75px;
+   max-width:250px;
+   padding:5px;
+   margin:10px;
+   border:1px solid #000000;}
+
+div.one {overflow:hidden;}
+
+div.two {overflow:scroll;}

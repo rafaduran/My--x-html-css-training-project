@@ -1,0 +1,12 @@
+/* Style sheet for max-width and min-width example */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+div {min-width:200px; 
+   max-width:500px;
+   padding:5px;
+   border:1px solid #000000;}

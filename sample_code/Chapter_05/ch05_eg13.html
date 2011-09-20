@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+  <title>Creating groups of options with a disabled option</title>
+</head>
+
+<body>
+<form action="http://www.example.org/info.asp" method="get" name="frmInfo">
+  Please select the product you are interested in:<br />
+  <select name="selInformation">
+    <option disabled="disabled" value=""> -- Hardware -- </option>
+      <option value="Desktop">Desktop computers</option>
+      <option value="Laptop">Laptop computers</option>
+    <option disabled="disabled" value=""> -- Software -- </option>
+      <option value="OfficeSoftware">Office software</option>
+      <option value="Games">Games</option>
+    <option disabled="disabled" value=""> -- Peripherals -- </option>
+      <option value="Monitors">Monitors</option>
+      <option value="InputDevices">Input Devices</option>
+      <option value="Storage">Storage</option>
+  </select>
+<br /><br /><input type="submit" value="Submit" />
+</form>
+</body>
+</html>

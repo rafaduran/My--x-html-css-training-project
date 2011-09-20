@@ -1,0 +1,40 @@
+<html>
+<head>
+  <title>Form validation</title>
+  <script type="text/JavaScript" language="JavaScript">
+
+function validate(form) {
+  var radioButtons = form.radSuit;
+  radioChosen = false;
+  for (var i=0; i<radioButtons.length; i++) {
+   if (radioButtons[i].checked)
+    {
+      radioChosen=true;
+      returnValue = true;
+    }
+}
+
+if (radioChosen == false) {
+returnValue = false;
+alert("You did not select a suit of cards");
+}
+
+return returnValue;
+}
+
+</script>
+</head>
+<body>
+
+<form name="frmCards" action="cards.aspx" method="post"
+         onsubmit="return validate(this)" >
+  <p>Please select a suit of cards.</p>
+  <p><input type="radio" name="radSuit" value="hearts" /> Hearts </p>
+  <p><input type="radio" name="radSuit" value="diamonds" /> Diamonds </p>
+  <p><input type="radio" name="radSuit" value="spades" /> Spades </p>
+  <p><input type="radio" name="radSuit" value="clubs" /> Clubs </p>
+  <p><input type="submit" value="Submit choice" /></p>
+</form> 
+
+</body>
+</html>

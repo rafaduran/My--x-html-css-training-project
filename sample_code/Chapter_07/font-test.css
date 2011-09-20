@@ -1,0 +1,9 @@
+/* CSS Style sheet for font-test.html */
+
+body {background-color:#ffffff;}
+
+div.arial {font-family:arial, courier;}
+div.helvetica {font-family:Helvetica, courier;}
+div.TimesNewRoman {font-family:"Times New Roman", courier;}
+div.MrsEaves {font-family:"Mrs Eaves", courier;}
+div {line-height:28px;}

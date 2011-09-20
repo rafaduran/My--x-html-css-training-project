@@ -1,0 +1,17 @@
+/* Style sheet for height and width example */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+p.one {
+  width:200px; height:100px;
+  padding:5px; margin:10px;
+  border-style:solid; border-color:#000000; border-width:2px;}
+
+p.two {
+  width:300px; height:100px;
+  padding:5px; margin:10px;
+  border-style:solid; border-color:#000000; border-width:2px;}

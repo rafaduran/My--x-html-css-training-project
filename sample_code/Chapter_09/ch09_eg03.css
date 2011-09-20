@@ -1,0 +1,19 @@
+body {
+	background-color:#000000;
+	margin:0px;
+	padding:0px;}
+h1 {
+	margin:0px;}
+
+
+#frame {
+  width:960px;
+  margin-left:auto;
+  margin-right:auto;
+  background-image:url("images/960px_12_col_grid.gif");
+  background-repeat:repeat-y;}
+
+#page {
+  width:940px;
+  margin-left:auto;
+  margin-right:auto;}

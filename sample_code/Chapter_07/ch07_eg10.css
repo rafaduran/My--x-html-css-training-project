@@ -1,0 +1,14 @@
+/* Style sheet for ch010_eg10.html */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+table {width:500px;}
+
+p.underline {text-decoration:underline;}
+p.overline {text-decoration:overline;}
+p.line-through {text-decoration:line-through;}
+p.blink {text-decoration:blink;}

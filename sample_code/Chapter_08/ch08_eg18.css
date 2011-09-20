@@ -1,0 +1,17 @@
+/* Style sheet for ch09_eg18.html */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; }
+
+table {width:75px;}
+table.one {table-layout:auto}
+table.two {table-layout:fixed;}
+
+td {
+   padding:5px;
+   border-style:solid;
+   border-width:1px;
+   border-color:#999999;}
+

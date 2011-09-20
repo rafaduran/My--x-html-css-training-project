@@ -1,0 +1,19 @@
+Instructions for setting poster image:
+
+1. Create a poster image that is the exact dimension of your video frame. 
+
+	Example: My video is 600 x 450 pixels, my poster image needs to also be 600 by 450 pixels.
+
+2. Name the image "postImage.jpg". It must have this name to be registered by the player as your poster image.
+
+3. Float "postImage.jpg" beside "player.swf".  If it is not in the same directory as "player.swf", the player will not be able to find it unless you alter the code (see below).
+
+
+
+I can't have the poster image floating in the same directory as the player.swf file... what can I do?
+
+1. Open the player.fla file.
+
+2. Open the posterImage movie clip.
+
+3. Change the AS in the first frame to point to the directory where you have the poster image.

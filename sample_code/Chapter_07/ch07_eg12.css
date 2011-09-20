@@ -1,0 +1,9 @@
+/* Style sheet for ch07_eg12.html */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+.shadow {text-shadow: #999999 10px 10px 3px;}

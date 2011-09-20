@@ -1,0 +1,14 @@
+/* Style sheet for example */
+
+body {background-color:#ffffff;
+  font-family:arial, verdana, sans-serif;
+  font-size:12px;}
+
+td {font-size:12px;}
+
+.heading, .footer {width:100%;
+  background-color:#efefef;
+  padding:10px;}
+
+code {color:#969696;
+  font-weight:bold;}

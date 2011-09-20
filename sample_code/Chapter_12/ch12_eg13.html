@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Disable a text input</title>
+<script type="text/JavaScript">
+function handleOther(strRadio) {
+
+  if (strRadio == "other")  {
+    document.frmReferrer.txtOther.disabled = false;
+    document.frmReferrer.txtOther.value = '';
+  }
+  else   {
+    document.frmReferrer.txtOther.disabled = true;
+    document.frmReferrer.txtOther.value = 'not applicable'; 
+  }
+}
+</script>
+</head>
+<body onload="document.frmReferrer.txtOther.disabled=true;
+              document.frmReferrer.txtOther.value='not applicable' ">
+<h2>How did you hear about us?</h2>
+
+<form name="frmReferrer">
+  <input type="radio" name="radHear" value="1" 
+         onclick="handleOther(this.value);" />From a friend<br />
+  <input type="radio" name="radHear" value="2" 
+         onclick="handleOther(this.value);" />TV Ad<br />
+  <input type="radio" name="radHear" value="3" 
+         onclick="handleOther(this.value);" />Magazine Ad<br />
+  <input type="radio" name="radHear" value="4" 
+         onclick="handleOther(this.value);" />Newspaper Ad<br />
+  <input type="radio" name="radHear" value="5" 
+         onclick="handleOther(this.value);" />Internet<br />
+  <input type="radio" name="radHear" value="other"
+         onclick="handleOther(this.value);" />Other... Please specify:
+  <input type="text" name="txtOther" />
+</form>
+
+</body>
+</html>

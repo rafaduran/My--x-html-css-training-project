@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head><title>Select whole text area</title>
+<script type="text/JavaScript">
+  function selectAll(strControl) {
+    strControl.focus();
+    strControl.select();
+  }
+</script>
+</head>
+
+<body>
+  <form name="myForm" action="">
+    <textarea name="myTextArea" rows="5" cols="20">This is some text</textarea>
+    <input type="button" name="btnSelectAll" value="Select all"   
+           onclick="selectAll(document.myForm.myTextArea);" />
+  </form>
+</body>
+</html>

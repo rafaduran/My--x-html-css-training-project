@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title>Form validation</title>
+  <script type="text/JavaScript" language="JavaScript">
+
+function validate(form) {
+  var returnValue = true;
+  var selectedOption = form.selCards.selectedIndex;
+  if (selectedOption=="0")
+  {
+    alert("Please select a suit of cards.");
+    returnValue = false;
+  }
+
+  return returnValue;
+}
+
+</script>
+</head>
+<body>
+
+<form name="frmCards" action="cards.asp" method="get"
+      onsubmit="return validate(this)" >
+  <select name="selCards" id="selCards">
+    <option>Select a suit of cards</option>
+    <option value="hearts">Hearts</option>  
+    <option value="diamonds">Diamonds</option>  
+    <option value="spades">Spades</option>  
+    <option value="clubs">Clubs</option>  
+  </select>
+  <input type="submit" value="Send selection" />
+</form>
+
+</body>
+</html>

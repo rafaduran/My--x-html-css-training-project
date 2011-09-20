@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+  <title>Focus</title>
+</head>
+<body onload="document.frmDOB.txtMonth.focus();">
+
+<form name="frmDOB" action="example.asp" method="post">
+  Enter your date of birth:<br />
+
+  <input name="txtMonth" id="txtMonth" size="3" maxlength="2"
+         onkeyup="if(this.value.length>=2) 
+         this.form.txtDay.focus();"/>
+  <input name="txtDay" id="txtDay" size="3" maxlength="2"
+         onkeyup="if(this.value.length>=2) 
+         this.form.txtYear.focus();" />
+  <input name="txtYear" id="txtYear" size="5" maxlength="4"
+         onkeyup="if(this.value.length>=4) 
+         this.form.submit.focus();" />
+
+  <input type="submit" name="submit" 
+         value="Send" />
+
+</form>
+
+
+</body>
+</html>

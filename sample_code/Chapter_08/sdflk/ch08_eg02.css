@@ -1,0 +1,5 @@
+/* style sheet demonstrating the background-color property */
+
+body {background-color:#cccccc; color:#000000}
+b {background-color:#FF0000; color:#FFFFFF;}
+p {background-color: rgb(255,255,255);}

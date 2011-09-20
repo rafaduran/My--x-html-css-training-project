@@ -1,0 +1,11 @@
+/* Style sheet for margin example  */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+p {margin-top:40px; margin-bottom:30px; margin-left:20px; margin-right:20px;
+    border-style:solid; border-width:1px; border-color:#000000;}
+em {background-color:#cccccc; margin-left:20px; margin-right:20px;}

@@ -1,0 +1,11 @@
+/* Style sheet for ch07_eg14.html */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+p.two {letter-spacing:3px;}
+p.three {letter-spacing:0.5em;}
+p.four {letter-spacing:-1px;}

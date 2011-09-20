@@ -1,0 +1,10 @@
+/* Style sheet for ch07_eg15.html */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+.two {word-spacing:20px;}
+.three {word-spacing:-1px;}

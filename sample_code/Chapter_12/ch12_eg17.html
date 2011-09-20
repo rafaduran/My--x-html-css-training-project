@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head><title>Select whole text area</title>
+<script type="text/JavaScript">
+function check(field) {
+  for (var i = 0; i < field.length; i++) {
+    field[i].checked = true;}
+}
+
+function uncheck(field) {
+  for (var i = 0; i < field.length; i++) {
+    field[i].checked = false; }
+}
+</script>
+</head>
+
+<body>
+<form name="frmSnacks" action="">
+
+  Your basket order<br />
+  <input type="checkbox" name="basketItem" value="1" />Chocolate cookies<br />
+  <input type="checkbox" name="basketItem" value="2" />Potato chips<br />
+  <input type="checkbox" name="basketItem" value="3" />Cola<br />
+  <input type="checkbox" name="basketItem" value="4" />Cheese<br />
+  <input type="checkbox" name="basketItem" value="5" />Candy bar<br /><br />
+
+  <input type="button" value="Select All"
+         onclick="check(document.frmSnacks.basketItem);" /> 
+  <input type="button" value="Deselect All"
+         onclick="uncheck(document.frmSnacks.basketItem);" />
+</form>
+</body>
+</html>

@@ -1,0 +1,7 @@
+/* style sheet demonstrating the background-image property */
+
+body {
+  background-image: url("images/background_small.gif");
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  background-color: #eaeaea; }

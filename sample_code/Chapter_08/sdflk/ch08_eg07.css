@@ -1,0 +1,6 @@
+/* style sheet demonstrating the background-repeat property */
+
+body {
+  background-image: url("images/background_small.gif");
+  background-repeat: no-repeat;
+  background-color: #eaeaea;}

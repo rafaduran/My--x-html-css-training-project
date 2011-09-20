@@ -1,0 +1,25 @@
+/* Style sheet for absolute positioning  */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+div.page {
+  position:absolute; 
+  left:50px; 
+  top: 100px; 
+  padding:20px;
+  border-style:solid; border-width:2px; border-color:#000000;}
+
+p {
+  background-color:#FFFFFF;
+  width:200px; 
+  padding:5px; 
+  border-style:solid; border-color:#000000; border-width:2px;}
+
+p.two {
+  position:absolute; 
+  left:50px; 
+  top: -25px;}

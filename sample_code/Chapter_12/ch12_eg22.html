@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Mochi tables</title>
+  <script type="text/javascript" src="scripts/MochiKit/MochiKit.js"></script>
+  <script type="text/javascript" src="scripts/MochiKit/examples/sortable_tables/sortable_tables.js"></script>
+  <style type="text/css">
+    th, td {font-family:arial, verdana, sans-serif;}
+    th {background-color:#000000;width:200px;color:#ffffff;}
+  </style>
+</head>
+<body>
+
+
+<table id="sortable_table">
+  <thead>
+    <tr>
+      <th mochi:sortcolumn="name str">Name</th>
+      <th mochi:sortcolumn="department str">Department</th>
+      <th mochi:sortcolumn="datestarted isoDate">Date started</th>
+      <th mochi:sortcolumn="extension str">Employee ID</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr mochi:repeat="item domains">
+      <td mochi:content="item.name">Tim Smith</td>
+      <td mochi:content="item.department">IT</td>
+      <td mochi:content="item.datestarted">2007-02-10</td>
+      <td mochi:content="item.extension">12</td>
+    </tr>
+    <tr>
+      <td>Claire Waters</td>
+      <td>Finance</td>
+      <td>2006-09-24</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>Hetal Patel</td>
+      <td>HR</td>
+      <td>2006-01-10</td>
+      <td>05</td>
+    </tr>
+    <tr>
+      <td>Mark Whitehouse</td>
+      <td>Sales</td>
+      <td>2007-03-28</td>
+      <td>09</td>
+    </tr>
+  </tbody>
+</table>
+
+		
+		
+</body>
+</html>

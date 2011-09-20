@@ -1,0 +1,6 @@
+/* style sheet demonstrating the list-style-image property */
+
+body {background-color: #ffffff; }
+
+ul {list-style-image: url("images/bulletpoint.gif");}
+li {marker-offset:20px;}

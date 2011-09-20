@@ -1,0 +1,9 @@
+/* Style sheet to demonstrate the visibility property */
+
+body {
+   color:#000000;
+   background-color:#ffffff;}
+
+p {font-size:12pt;}
+
+p.invisible {visibility:hidden;}

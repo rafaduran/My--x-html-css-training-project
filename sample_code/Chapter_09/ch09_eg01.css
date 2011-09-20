@@ -1,0 +1,10 @@
+body {
+  background-color:#ffffff;}
+
+div#page {
+  width:80%;
+  padding:5%;
+  background-color:#ffffff;
+  border:1px solid #000000;
+  font-family:arial, verdana, sans-serif;
+  font-size:12px;}

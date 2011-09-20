@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+  <title>Voting</title>
+  <style type="text/css">td {width:100; text-align:center;}</style>
+</head>
+
+<body>
+<h2>Register your opinion</h2>
+<p>How well do you rate the information on this site (where 1 is very poor, and 5 is very good)?</p>
+
+<form action="http://www.example.com/ads/respond.aspx" method="get" name="frmRespondToAd">
+
+<table>
+  <tr>
+    <td><input type="radio" name="radVote" value="1" id="vpoor" /></td>
+    <td><input type="radio" name="radVote" value="2" id="poor" /></td>
+    <td><input type="radio" name="radVote" value="3" id="average" checked="checked" /></td>
+    <td><input type="radio" name="radVote" value="4" id="good" /></td>
+    <td><input type="radio" name="radVote" value="5" id="vgood" /></td>
+  </tr>
+  <tr>
+    <td><label for="vpoor">1 <br />Very Poor</label></td>
+    <td><label for="poor">2 <br />Poor</label></td>
+    <td><label for="average">3 <br />Average</label></td>
+    <td><label for="good">4 <br />Good</label></td>
+    <td><label for="vgood">5 <br />Very Good</label></td>
+  </tr>
+</table>
+<input type="submit" value="Vote now" />
+</form>
+
+</body>
+</html>

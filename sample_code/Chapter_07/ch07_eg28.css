@@ -1,0 +1,12 @@
+/* Style sheet for max-height and min-height example */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+div {min-height:150px; 
+   max-height:200px;
+   padding:5px;
+   border:1px solid #000000;}

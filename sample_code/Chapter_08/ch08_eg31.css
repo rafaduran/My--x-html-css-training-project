@@ -1,0 +1,28 @@
+/* Style sheet for z-index  */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+p {
+  width:200px;
+  background-color:#ffffff;
+  padding:5px; margin:10px;
+  border-style:solid; border-color:#000000; border-width:2px;}
+
+p.one {
+   z-index:3;
+   position:absolute;
+   left:0px; top:0px;}
+
+p.two {
+  z-index:1;
+  position:absolute; 
+  left:150px;  top: 25px;}
+
+p.three {
+   z-index:2;
+   position:absolute;
+   left:40px; top:35px;}

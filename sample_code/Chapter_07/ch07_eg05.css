@@ -1,0 +1,13 @@
+/* Style sheet for ch07_eg05.html */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+td {width:200px;}
+
+p.one {font-style:normal;}
+p.two {font-style:italic;}
+p.three {font-style:oblique;}

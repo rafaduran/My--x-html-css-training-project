@@ -1,0 +1,10 @@
+/* Style sheet for ch07_eg17.html */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+.ltr {direction:ltr; }
+.rtl {direction:rtl; }

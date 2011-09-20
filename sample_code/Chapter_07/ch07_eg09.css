@@ -1,0 +1,21 @@
+/* Style sheet for ch07_eg09.html */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+div {border-style:solid; border-width:1px; border-color:#000000; width:200px; margin-bottom:10px;}
+
+.plain {color:#FF0000;}
+.baseline {vertical-align:baseline;}
+.sub {vertical-align:sub;}
+.super {vertical-align:super;}
+.top {vertical-align:top;}
+.texttop {vertical-align:text-top;}
+.middle {vertical-align:middle;}
+.bottom {vertical-align:bottom;}
+.textbottom {vertical-align:text-bottom;}
+.oneHundredPercent {vertical-align:100%;}
+.fiftyPercent {vertical-align:50%;}

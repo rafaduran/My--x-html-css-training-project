@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+  <title>Organizing Elements With &lt;fieldset&gt; and &lt;legend&gt;Elements</title>
+</head>
+
+<body>
+<form action="http://www.example.org/competition.asp" method="post" name="frmComp">
+  <fieldset>
+    <legend><em>Contact Information</em></legend>
+      <label>First name: <input type="text" name="txtFName" size="20" /></label><br />
+      <label>Last name: <input type="text" name="txtLName" size="20" /></label><br />
+      <label>E-mail: <input type="text" name="txtEmail" size="20" /></label><br />
+  </fieldset>
+  <fieldset>
+  <legend><em>Competition Question</em></legend>
+   How tall is the Eiffel Tower in Paris, France?<br />
+   <label><input type="radio" name="radAnswer" value="584" />584 ft</label><br />
+   <label><input type="radio" name="radAnswer" value="784" />784 ft</label><br />
+   <label><input type="radio" name="radAnswer" value="984" />984 ft</label><br />
+   <label><input type="radio" name="radAnswer" value="1184" />1184 ft</label><br />
+  </fieldset>
+  <fieldset>
+    <legend><em>Tiebreaker Question</em></legend>
+      <label>In 25 words or less, say why you would like to win $10,000: <br />
+        <textarea name="txtTiebreaker" rows="10" cols="40"></textarea>
+      </label>
+  </fieldset>
+  <fieldset>
+    <legend><em>Enter competition</em></legend>
+       <input type="submit" value="Enter Competition" />
+  </fieldset>
+</form>
+</body>
+</html>

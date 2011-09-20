@@ -1,0 +1,16 @@
+/* Style sheet for table example */
+
+body {
+   color:#000000;
+   background-color:#ffffff;}
+
+h1 {font-size:18pt;}
+
+p {font-size:12pt;}
+
+table.one {border-spacing:15px;}
+table.two {border-spacing:2px 8px;}
+
+td {padding:5px;background-color:#d6d6d6;}
+
+table {margin-bottom:20px;}

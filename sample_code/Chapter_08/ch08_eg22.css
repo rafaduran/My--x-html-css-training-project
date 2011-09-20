@@ -1,0 +1,9 @@
+/* Style sheet for CSS counters */
+
+body {counter-reset: chapter; counter-reset: section; }
+
+h1:before {content: "Chapter " counter(chapter) ": "; }
+h1 {counter-increment: chapter; counter-reset: section;}
+
+h2:before { content: counter(chapter) "." counter(section) " "; }
+h2 {counter-increment: section; }

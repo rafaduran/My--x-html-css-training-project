@@ -1,0 +1,19 @@
+/* forms style sheet */
+
+body, input, textarea {
+	font-family:arial, verdana, sans-serif;
+}
+
+.label {
+	width:175px;
+	float:left;
+	clear:both;
+	text-align:right;
+	margin:10px 5px 0px 0px;}
+
+.formElement {
+	width:175px;
+	float:left;
+	margin:10px 0px 0px 0px;}
+
+

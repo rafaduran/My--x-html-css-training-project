@@ -1,0 +1,10 @@
+/* Style sheet for padding example */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; 
+   font-size:12px;}
+
+.a, .b {border-style:solid; border-color:#000000; border-width:2px; width:100px;}
+.b {padding:5px;}

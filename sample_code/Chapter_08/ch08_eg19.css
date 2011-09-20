@@ -1,0 +1,10 @@
+/* Style sheet for ch09_eg18.html */
+
+body {
+   color:#000000;
+   background-color:#ffffff;
+   font-family:arial, verdana, sans-serif; }
+
+p {width:120px;}
+
+b {outline: #ff0000 8px dashed;}

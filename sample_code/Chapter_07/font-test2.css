@@ -1,0 +1,14 @@
+/* CSS Style sheet for font-test.html */
+
+body {background-color:#ffffff;}
+
+div {line-height:28px;
+margin-top:20px;}
+
+div.arial {font-family:arial, courier;}
+div.helvetica {font-family:Helvetica, courier;}
+div.TimesNewRoman {font-family:"Times New Roman", courier;}
+div.MrsEaves {font-family:"Mrs Eaves", courier;}
+
+.bold {font-weight:bold;}
+.italic {font-style:italic;}
