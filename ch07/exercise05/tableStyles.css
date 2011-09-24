@@ -1,0 +1,36 @@
+/* Style sheet for tableStyle.html */
+
+body {
+    background-color:#ffffff;
+    font-family:arial,verdana,sans-serif;
+    font-size:14px;
+}
+
+table {
+    border-width:1px;
+    border-style:solid;
+    border-color:#666666;
+    margin-top:1em;
+    margin-left:1em;
+}
+
+th {
+    background-color:#505050;
+    color:#ffffff;
+    font-weight:bold;
+    border:none;
+    padding:4px;
+}
+
+tr {
+    background-color:#909090;
+}
+
+tr.odd {
+    background-color:white;
+}
+
+td {
+    color:#000000;
+    padding:2px;
+}
