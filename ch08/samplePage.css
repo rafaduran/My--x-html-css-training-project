@@ -1,0 +1,60 @@
+/* Style sheet file for sampleLayoutTIY.html */
+
+body {
+    color:#000000;
+    font-family:arial, verdana, sans-serif;
+    font-size:12px;
+}
+
+h1 {
+    position:fixed;
+    top:0px;
+    left:10px;
+    width:90%;
+    color:#ffffff;
+    background-color: #666666;
+    padding:10px;
+    height:60px;
+    z-index:2;
+}
+
+div.nav {
+    position:absolute;
+    top:90px;
+    left:10px;
+    width:90px;
+    height:300px;
+    padding:10px;
+    background-color:#efefef;
+}
+
+div.nav:before {
+    content:"Navigation ";
+    font-size:10px;
+    font-weight:bold;
+}
+
+h2 {
+    padding:80px 0px 0px 130px;
+}
+
+p {
+    padding-left:115px;
+}
+
+p.abstract {
+    font-weight:bold;
+}
+
+img {
+    float:left;
+    width:60px;
+    margin-right:5px;
+}
+
+ul {
+    clear:left;
+    list-style:circle;
+    padding-left:145px;
+}
+

@@ -1,0 +1,28 @@
+/* Style sheet for exercise1.html */
+
+body {
+    background-color:#ffffff;
+    font-family: verdana, arial, sans-serif;
+}
+
+a {
+    text-decoration:none;
+}
+a:active {
+    text-decoration:underline;
+}
+
+a:visited {
+    color:purple;
+}
+
+ul {
+    font-weight:bold;
+    list-style:square;
+}
+
+#contents {
+    list-style:circle;
+    background-color:#efefef;
+    width:400px;
+}
