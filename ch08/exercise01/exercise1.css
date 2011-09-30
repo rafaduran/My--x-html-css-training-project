@@ -1,8 +1,10 @@
 /* Style sheet for exercise1.html */
+/* This works, but check solution for alternative code */
 
 body {
     background-color:#ffffff;
     font-family: verdana, arial, sans-serif;
+    font-size:12px;
 }
 
 a {
@@ -14,6 +16,12 @@ a:active {
 
 a:visited {
     color:purple;
+    text-decoration:none;
+}
+
+a:hover {
+    color:green;
+    text-decoration:underline;
 }
 
 ul {
