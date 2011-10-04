@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C"//DTD XHTML 1.0 Transactional//EN"
+    "http://www.w3c.org/TR/xhtml1/DTD/xhtml1-transactional.dtd">
+<html xmlns="http://www.w3c.org/1999/html1" lang="en" xml:lang="en">
+    <head>
+        <title>Try it out</title>
+        <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="registration.css" />
+    </head>
+    <body>
+        <form name="frmExample" action="register.aspx" method="post">
+            <fieldset>
+                <legend>Register with us:</legend>
+                <label for="fname">First name: <span class="required"></span></label>
+                <div class="input">
+                    <input type="text" name="txtFirstName" id="fname" size="12" />
+                </div>
+                <label for="lname">Last name: <span class="required"></span></label>
+                <div class="input">
+                    <input type="text" name="txtLastName" id="lname" size="12" />
+                </div>
+                <label for="email">E-mail address: <span class="required"></span></label>
+                <div class="input">
+                    <input type="text" name="txtEmail" id="email" size="20" />
+                </div>
+                <label for="pwd">Password: <span class="required"></span></label>
+                <div class="input">
+                    <input type="password" name ="txtPassword" id="pwd" size="12" />
+                    <span class="small"> must be between 6 and 12 characters long</span>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Register" />
+                </div>
+            </fieldset>
+        </form>
+        <p><span class=required></span> = required</p>
+    </body>
+</html>

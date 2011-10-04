@@ -1,0 +1,61 @@
+/* Style sheet for registration.html */
+
+body {
+    color:#000000;
+    background-color:#ffffff;
+    font-family:arial, verdana, sans-serif;
+    font-weight:bold;
+    font-size:100%;
+}
+
+fieldset {
+    padding:10px;
+    width:550px;
+}
+
+label {
+    width:170px;
+    float:left;
+    text-align:right;
+    clear:both;
+    margin-bottom:10px;
+}
+
+.input {
+    width:350px;
+    float:left;
+}
+
+input {
+    border-style:solid;
+    border-color:#666666;
+    border-width=1px;
+    background-color:#ffffcc;
+}
+
+input:focus {
+    border-style:solid;
+    border-color:#333333;
+    border-width:1px;
+    background-color:#ffffcc;
+}
+
+.submit {
+    clear:both;
+    margin-left:170px;
+    cursor:pointer;
+}
+
+.small {
+    font-size:10px;
+}
+
+.required {
+    font-weight:bold;
+    font-size:20px;
+    color:#ff0000;
+}
+
+.required:after {
+    content:"*";
+}
