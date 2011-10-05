@@ -8,6 +8,14 @@
         <link rel="stylesheet" type="text/css" href="registration.css" />
     </head>
     <body>
+        <ul>
+            <div id="current">
+                <li>Step 1 of 3</li>
+            </div>
+            <li>Step 2 of 3</li>
+            <li>Step 3 of 3</li>
+        </ul>
+        <br class="clear" />
         <form name="frmExample" action="register.aspx" method="post">
             <fieldset>
                 <legend>Register with us:</legend>
@@ -33,29 +41,10 @@
                     <input type="password" name ="txtPasswordAgain" id="pwdAgain" size="12" />
                     <span class="small"> must be between 6 and 12 characters long</span>
                 </div>
-                <label for="address1">Address 1: <span class="required"></span></label>
-                <div class="input">
-                    <input type="text" name="txtAddress1" id="address1" size="12" />
-                </div>
-                <label for="address2">Address 2: </label>
-                <div class="input">
-                    <input type="text" name="txtAddress2" id="address2" size="12" />
-                </div>
-                <label for="town">Town/Suburb: </label>
-                <div class="input">
-                    <input type="text" name="txtTown" id="town" size="12" />
-                </div>
-                <label for="city">City: <span class="required"></span></label>
-                <div class="input">
-                    <input type="text" name="txtCity" id="city" size="12" />
-                </div>
-                <label for="zipcode">ZIP Code: </label>
-                <div class="input">
-                    <input type="text" name="txtZipcode" id="zipcode" size="5" />
-                </div>
-                <div class="submit">
-                    <input type="submit" value="Register" />
-                </div>
+                <p>
+                    <span class="left">Back</span>
+                    <a class="right" href="registration2.html" alt="Next step">Next</a>
+                </p>
             </fieldset>
         </form>
         <p><span class=required></span> = required</p>

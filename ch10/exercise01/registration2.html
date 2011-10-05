@@ -8,31 +8,17 @@
         <link rel="stylesheet" type="text/css" href="registration.css" />
     </head>
     <body>
+        <ul>
+            <li>Step 1 of 3</li>
+            <div id="current">
+                <li>Step 2 of 3</li>
+            </div>
+            <li>Step 3 of 3</li>
+        </ul>
+        <br class="clear" />
         <form name="frmExample" action="register.aspx" method="post">
             <fieldset>
                 <legend>Register with us:</legend>
-                <label for="fname">First name: <span class="required"></span></label>
-                <div class="input">
-                    <input type="text" name="txtFirstName" id="fname" size="12" />
-                </div>
-                <label for="lname">Last name: <span class="required"></span></label>
-                <div class="input">
-                    <input type="text" name="txtLastName" id="lname" size="12" />
-                </div>
-                <label for="email">E-mail address: <span class="required"></span></label>
-                <div class="input">
-                    <input type="text" name="txtEmail" id="email" size="20" />
-                </div>
-                <label for="pwd">Password: <span class="required"></span></label>
-                <div class="input">
-                    <input type="password" name ="txtPassword" id="pwd" size="12" />
-                    <span class="small"> must be between 6 and 12 characters long</span>
-                </div>
-                <label for="pwdAgain">Repeat password: <span class="required"></span></label>
-                <div class="input">
-                    <input type="password" name ="txtPasswordAgain" id="pwdAgain" size="12" />
-                    <span class="small"> must be between 6 and 12 characters long</span>
-                </div>
                 <label for="address1">Address 1: <span class="required"></span></label>
                 <div class="input">
                     <input type="text" name="txtAddress1" id="address1" size="12" />
@@ -53,9 +39,10 @@
                 <div class="input">
                     <input type="text" name="txtZipcode" id="zipcode" size="5" />
                 </div>
-                <div class="submit">
-                    <input type="submit" value="Register" />
-                </div>
+                <p>
+                    <a href="registration1.html" alt="Back"><span class="left" >Back</span></a>
+                    <a class="right" href="registration3.html" alt="Next step">Next</a>
+                </p>
             </fieldset>
         </form>
         <p><span class=required></span> = required</p>
