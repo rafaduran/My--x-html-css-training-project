@@ -1,0 +1,56 @@
+/* Style sheet for tio_email_form.html */
+
+body {
+    background-color:#ffffff;
+    color:#000000;
+    font-family:verdana, helvetica, arial, sans-serif;
+    font-size:1.5em;
+    margin:auto;
+    width:900px;
+    position:relative;
+    top:20px;
+}
+
+form {
+    width:800px;
+}
+
+label{
+    float:left;
+    clear:left;
+}
+
+#toCCsubject {
+    float:left;
+    width:475px;
+}
+
+#addressBook {
+    float:right;
+    width:250px;
+}
+
+#toCCsubject > input {
+    float:right;
+}
+
+#addressBook > select {
+    width:250px;
+}
+
+.message {
+    clear:left;
+    float:left;
+}
+
+.message > input {
+    float:left;
+    clear:left;
+}
+
+.error {
+    color:red;
+    font-size: 0.75em;
+    clear:both;
+    float:left;
+}

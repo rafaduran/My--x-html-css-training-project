@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XTHML 1.0 Transactional //EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xthml1-transactional.dtd">
+<html xmlns="http://www.w3.org/1999/xthml1" lang="en" xml:lang="en">
+    <head>
+        <title>Email form</title>
+        <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+        <link type="text/css" rel="stylesheet" href="tio_email_form.css" />
+        <script type="text/javascript" src="tio_email_form.js"></script>
+    </head>
+    <body>
+        <form name="frmEmail" onsubmit="return validate(this);" action="tio_succes.html"
+            method="post">
+            <div id="toCCsubject">
+                <label>Send to:</label>
+                <input type="text" size="50" name="txtTo" id="txtTo" /><span class="error"></span>
+
+                <label>CC:</label>
+                <input type="text" size="50" name="txtCC" id="txtCC" /><span class="error"></span>
+
+                <label>Subject:</label>
+                <input type="text" size="50" name="txtSubject" id="txtSubject" /><span class="error"></span>
+            </div>
+            <div id="addressBook">
+                Quick address book<br />
+                <select size="4" name="selectList1" sytle="width:150px">
+                    <option value="sales@example.org">Sales</option>
+                    <option value="marketing@example.org">Marketing</option>
+                    <option value="research@example.org">Research</otption>
+                    <option value="support@example.org">Customer support</option>
+                    <option value="it@example.org">IT</option>
+                </select>
+                <input type="button" onclick="add(txtTo, document.frmEmail.selectList1);"
+                    value="Send To" />
+                <input type="button" onclick="add(txtCC, document.frmEmail.selectList1);"
+                    value="CC" />
+            </div>
+            <div class="message">
+                Message:<br />
+                <textArea name="txtMessage" id="txtMessage" rows="20" cols="115"></textarea><span class="error"></span><br />
+                <input type="submit" value="send E-mail" />
+            </div>
+        </form>
+    </body>
+</html>

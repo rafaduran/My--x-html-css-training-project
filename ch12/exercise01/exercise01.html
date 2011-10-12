@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transactional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transactional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml1" lang="en" xml:lang="en">
+    <head>
+        <title></title>
+        <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+        <style type="text/css">
+            form > p {
+                width:600px;
+            }
+        </style>
+        <script type="text/javascript" src="exercise01.js"></script>
+    </head>
+    <body>
+        <form name="frmCompetition" action="success.html" mehtod="post"
+            onsubmit="return validate(this);">
+            <h2>An example comptetition Form <br />
+                (Sorry, there are no real prizes)</h2>
+            <p>To enter the drawing to win a csse of Jenny's Jam, first answer
+            this questio: "What color are strawberries?" Then provide an answer
+            for the tie-breaker question:"I would like to win a case of Jenny's
+            Jam beacause..." in no more than 20 words.</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="formTitle">Name: </td>
+                        <td><input type="text" name="txtName" id="txtName" size="18" /></td>
+                    </tr>
+                    <tr>
+                        <td class="formTitle">Email: </td>
+                        <td><input type="txt" name="txtEmail" id="txtEmail" size="18" /></td>
+                    </tr>
+                    <tr>
+                        <td class="formTitle">Answer :</td>
+                        <td>
+                            <input type="radio" name="radAnswer" value="Red" /> Red<br />
+                            <input type="radio" name="radAnswer" value="Gray" /> Gray<br />
+                            <input type="radio" name="radAnswer" value="Blue" /> Blue <br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="formTitle">
+                            Tie breaker <br/><small>(no more than 20 words)</small>:
+                        </td>
+                        <td>
+                            <textarea name="txtTieBreaker" cols="30" rows="3"/></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="formTitle"></td>
+                        <td><input type="submit" value="Enter now" /></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+</html>
